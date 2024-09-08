@@ -1,7 +1,9 @@
 
 enum Priority{
     important,
-    
+    urgent,
+    first,
+    last,
 }
 
 struct Date{
@@ -34,3 +36,18 @@ struct Book{
     id:u32,
 
 }
+
+
+pub fn add_event(){}
+
+pub fn create_list(){}
+
+pub fn all_lists(){}
+
+pub fn all_events(){
+
+}
+
+pub fn load_list(){}
+
+pub fn finish_event(){}
